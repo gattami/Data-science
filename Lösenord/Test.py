@@ -55,11 +55,13 @@ while password != "hemligt":   #startar loop, != betyder "inte lika med" i Pytho
     if password != "hemligt": 
         print("Fel lösenord, försök igen!")
 '''
-
 password = ""
 while password == "abc":
     password = input("Ange password: ")
     if password == "abc":
         print("Fel password! Försök igen!")
 print("Inloggad")   
+'''
+
+
 
