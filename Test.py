@@ -1,20 +1,14 @@
 
-'''
-x = 10
-y = 20
-print(f"summan av {x} + {y} är", (x+y))      
+text = "   Python är roligt!   "
+rensad_text = text.strip()
+print(rensad_text)
 
+text = "python är roligt!"
+print(text.replace("roligt", "fantastiskt"))
 
+text = "python är bäst"
+print(text.replace("bäst", "sådär"))
 
-namn = "Mila"
-ålder = 38
-
-print(f"Hej, {namn}! Du är {ålder} år gammal.")
-'''
-
-
-x="123"
-y=2
-z= int(x)
-a=z*y
-print(a)
+namn = "Mila jackson"
+ålder = "39"
+print (f"hej mitt namn är {namn} jag är {ålder} år GAMMAL.")
