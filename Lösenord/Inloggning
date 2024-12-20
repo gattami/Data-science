@@ -5,7 +5,9 @@ while password == "abc":
     if password == "abc":
         print("Fel password! Försök igen!")
 print("Inloggad")   
+'''
 
+#lösenord försök igen
 '''
 
 password = ""
@@ -14,3 +16,36 @@ while password != "hemligt":
     print("Rätt lösenord!") 
     if password != "hemligt": 
         print("Fel lösenord, försök igen!")
+
+'''
+
+# Gåta
+''' 
+
+Fråga = ""
+while Fråga != "framtiden":  # while-loop för gåtan
+    print("Vad är något som alltid är framför dig, men som du aldrig kan nå?")
+    Fråga = input("Ange svar: ")
+    if Fråga != "framtiden":  # Om svaret är fel
+        print("Fel svar pucko, försök igen!")
+print("Rätt svar! Bra jobbat!")
+'''
+
+# Gissa siffran
+'''
+
+Välj = 0  # Startvärde som inte är 1525
+while Välj != 15:  # Körs tills rätt svar anges
+    print("Gissa vilket tal Mila tänker på mellan 1-30")
+    Välj = int(input("Ange svar: "))  # Konverterar inmatning till heltal
+    if Välj < 10:  
+        print("För lågt pucko, försök igen!")
+    elif Välj > 25:
+        print("För högt pucko, försök igen!")
+    elif Välj > 12 and Välj <= 18:  # Om talet är mellan 12 och 18
+        print("Du närmar dig, men det är inte rätt!")
+print("Rätt svar! Bra jobbat!")
+
+'''
+
+# GISSA
