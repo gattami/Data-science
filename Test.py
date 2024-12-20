@@ -46,12 +46,20 @@ if telefonnummer.isdigit() and len(telefonnummer) >= 10:
 else:
     print("Telefonnumret måste vara minst 10 siffror och endast innehålla siffror!")
 print("Telefonnumret måste vara minst 10 siffror och endast innehålla siffror!")
-'''
+
 
 password = ""
-while password != "hemligt":  
-    password = input("Ange lösenord: ")
+while password != "hemligt":   #startar loop, != betyder "inte lika med" i Python. Den används för att jämföra två värden och kontrollera om de inte är lika. Om värdena inte är lika, returnerar den True (sant), annars returnerar den False (falskt).
+    password = input("Ange lösenord: ") 
     print("Rätt lösenord!") 
     if password != "hemligt": 
         print("Fel lösenord, försök igen!")
-        
+'''
+
+password = ""
+while password == "abc":
+    password = input("Ange password: ")
+    if password == "abc":
+        print("Fel password! Försök igen!")
+print("Inloggad")   
+
