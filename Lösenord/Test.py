@@ -1,4 +1,9 @@
-'''''
+''''
+#This is a comment
+print("Hello, World!")
+
+'''
+
 text = "   Python är roligt!   "
 rensad_text = text.strip()
 print(rensad_text)
