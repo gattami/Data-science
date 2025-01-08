@@ -15,6 +15,4 @@ print (is_odd (10))
 '''
 
 
-my_list = [20, 30, 40, 50]
-result = sum_list(my_list)
-print(result) 
+

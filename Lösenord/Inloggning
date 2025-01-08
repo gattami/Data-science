@@ -45,7 +45,3 @@ while Välj != 15:  # Körs tills rätt svar anges
     elif Välj > 12 and Välj <= 18:  # Om talet är mellan 12 och 18
         print("Du närmar dig, men det är inte rätt!")
 print("Rätt svar! Bra jobbat!")
-
-'''
-
-# GISSA
