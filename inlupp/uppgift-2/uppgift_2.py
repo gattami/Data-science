@@ -1,14 +1,14 @@
+# Uppgift 2
+# Skapa en funktion sum_list(numbers) som returnerar summan av alla siffror i listan.
 
- 
-from typing import List
+def sum_list(numbers: list) -> int:
+    """
+    Jag returnerar summan av alla siffror i listan.
+    """
+    summan = 0
+    for num in numbers:
+        summan = summan + num
+    return summan
 
-def sum_list(numbers: List[int]) -> int:
-    total = 0  
-    for number in numbers:  
-        total += number  
-    return total 
-
-
-numbers = [10, 20, 30, 40, 50]  
-result = sum_list(numbers)  
-print(result)  
+print(sum_list([-1, -2, -3]))
+# sum_list([1, 2, 3])
